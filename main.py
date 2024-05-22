@@ -1627,7 +1627,7 @@ async def khann(bot: Client, m: Message):
         print(1)
     with open(f"{batch_ids}.txt", "rb") as f:
         await asyncio.sleep(5)
-        doc = await message.reply_document(document=f, caption="Here is your txt file.")
+        doc = await message.reply_document(document=f, caption="ये लो आपकी TXT.")
 
 
 @bot.on_message(filters.command(["adownload"]))
